@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Kaique</title>
 
+    <html lang="pt-BR" data-bs-theme="light" style="scroll-padding-top: 100px;"></html>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-
     <header class="navbar navbar-expand-md bg-body-tertiary border-bottom py-3 sticky-top">
         <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
 
@@ -26,11 +26,11 @@
             <div class="d-flex align-items-center gap-3">
                 <nav>
                     <ul class="nav">
-                        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
                         <li class="nav-item"><a href="#formacao" class="nav-link">Formação</a></li>
                         <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
-                        <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
                         <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
                     </ul>
                 </nav>
@@ -238,7 +238,7 @@
             htmlEl.setAttribute('data-bs-theme', temaSalvo);
             atualizarTextoBotao(temaSalvo);
         }
-
+ 
         toggleBtn.addEventListener('click', function () {
             const temaAtual = htmlEl.getAttribute('data-bs-theme');
             const novoTema = temaAtual === 'dark' ? 'light' : 'dark';
