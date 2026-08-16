@@ -1,12 +1,257 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste</title>
+    <title>Curriculum Kaique</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-    <a1> teste teste apos a alteração</a1>
-    
+
+    <header class="navbar navbar-expand-md bg-body-tertiary border-bottom py-3 sticky-top">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
+
+            <div class="d-flex align-items-center gap-3 mb-3 mb-md-0">
+                <img src="https://media.licdn.com/dms/image/v2/D4D35AQEfCiehb4z5yQ/profile-framedphoto-shrink_400_400/B4DaAL4O6EIIAU-/0/1786905686239?e=1787511600&v=beta&t=ckcVCkXkvWY3IVqwFlN1Aau3DWe4bPRs21ovnH8zLKo"
+                     class="rounded-circle"
+                     width="60" height="60">
+                <div>
+                    <h1 class="h5 mb-0">Kaique Alves de Souza</h1>
+                    <small class="text-body-secondary">Software Engineering Student &middot; Networking &middot; Cybersecurity</small>
+                </div>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <nav>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#experiencia" class="nav-link">Experiência</a></li>
+                        <li class="nav-item"><a href="#formacao" class="nav-link">Formação</a></li>
+                        <li class="nav-item"><a href="#projetos" class="nav-link">Projetos</a></li>
+                        <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                        <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>
+
+                <button id="theme-toggle" type="button" class="btn btn-outline-secondary btn-sm">
+                    Modo escuro
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="container my-5">
+
+        <section id="sobre" class="mb-5">
+            <h2 class="mb-3">Sobre mim</h2>
+            <p>
+                Sou estudante de Engenharia de Software na Universidade de Rio Verde, com foco em redes, infraestrutura e cibersegurança.
+
+                Atuo como Coordenador de Unidade na DS Outsourcing, sendo responsável pela gestão da infraestrutura de TI da unidade Cemab, incluindo ativos de rede e informática, permissões de firewall e usuários administrativos.
+                Também realizo a administração do sistema Wareline, prestando suporte aos usuários, criação de contas e gerenciamento de perfis e permissões, incluindo usuários médicos.
+
+                Busco constantemente aprimorar meus conhecimentos em infraestrutura, redes, segurança da informação e desenvolvimento de software, visando crescer profissionalmente e contribuir para soluções de tecnologia eficientes e seguras.
+            </p>
+        </section>
+
+        <section id="experiencia" class="mb-5">
+            <h2 class="mb-3">Experiência Profissional</h2>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between mb-1">
+                        <h3 class="h5 card-title mb-1">Coordenador de Unidade</h3>
+                        <small class="text-body-secondary">Agosto de 2026 &ndash; Atual</small>
+                    </div>
+                    <h4 class="h6 card-subtitle mb-3 text-body-secondary">DS Outsourcing Development & Support &middot; Rio Verde, GO</h4>
+                    <ul class="mb-0">
+                        <li>Gestão da infraestrutura e dos recursos de TI da unidade Cemab</li>
+                        <li>Administração de ativos de rede e informática</li>
+                        <li>Configuração de permissões de firewall e usuários administrativos</li>
+                        <li>Administração do sistema Wareline: suporte, criação de contas, administração de perfis e permissões e faturamento hospitalar</li>
+                        <li>Acompanhamento da infraestrutura, buscando disponibilidade e continuidade dos serviços</li>
+                        <li>Suporte técnico a colaboradores e resolução de chamados</li>
+                        <li>Configuração e manutenção de equipamentos, computadores e impressoras</li>
+                        <li>Instalação e atualização de softwares</li>
+                        <li>Diagnóstico e resolução de problemas técnicos na infraestrutura</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between mb-1">
+                        <h3 class="h5 card-title mb-1">Técnico de Suporte ao Usuário de TIC I</h3>
+                        <small class="text-body-secondary">Fevereiro de 2026 &ndash; Agosto de 2026</small>
+                    </div>
+                    <h4 class="h6 card-subtitle mb-3 text-body-secondary">DS Outsourcing Development & Support &middot; Rio Verde, GO</h4>
+                    <ul class="mb-0">
+                        <li>Suporte técnico a colaboradores e resolução de chamados</li>
+                        <li>Configuração e manutenção de equipamentos, computadores e impressoras</li>
+                        <li>Instalação e atualização de softwares</li>
+                        <li>Diagnóstico e resolução de problemas técnicos na infraestrutura</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="mb-5">
+            <h2 class="mb-3">Formação Acadêmica</h2>
+
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between mb-1">
+                        <h3 class="h5 card-title mb-1">Bacharelado em Engenharia de Software</h3>
+                        <small class="text-body-secondary">2024 &ndash; 2027</small>
+                    </div>
+                    <h4 class="h6 card-subtitle text-body-secondary mb-0">Universidade de Rio Verde</h4>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex flex-column flex-sm-row justify-content-between mb-1">
+                        <h3 class="h5 card-title mb-1">Técnico em Informática para Internet</h3>
+                        <small class="text-body-secondary">2026</small>
+                    </div>
+                    <h4 class="h6 card-subtitle text-body-secondary mb-0">Colégio Técnico Global</h4>
+                </div>
+            </div>
+
+            <div class="row g-4 mt-1">
+                <div class="col-md-6">
+                    <h3 class="h6 text-body-secondary text-uppercase">Certificações</h3>
+                    <ul>
+                        <li>Imersão SOC e NetSec</li>
+                        <li>Introduction to Cybersecurity</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="h6 text-body-secondary text-uppercase">Idiomas</h3>
+                    <ul>
+                        <li>Português &mdash; Nativo / Bilíngue</li>
+                        <li>Inglês &mdash; Avançado / Profissional</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="mb-5">
+            <h2 class="mb-3">Projetos</h2>
+
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="h5 card-title">Loja de Móveis</h3>
+                    <p class="card-text">
+                        Sistema desktop desenvolvido em Java para gerenciamento de uma loja de móveis.
+                        Conta com tela de login de funcionário e módulos de cadastro e pesquisa para móveis,
+                        fornecedores e funcionários, com persistência de dados em banco SQLite e organização
+                        do código em MVC (Model-View-Controller).
+                    </p>
+                    <div class="mb-3">
+                        <span class="badge text-bg-secondary">Java</span>
+                        <span class="badge text-bg-secondary">Swing</span>
+                        <span class="badge text-bg-secondary">SQLite</span>
+                        <span class="badge text-bg-secondary">Maven</span>
+                        <span class="badge text-bg-secondary">Padrão MVC</span>
+                    </div>
+                    <a href="https://github.com/kaiquexsouza/LojadeMoveis" target="_blank" class="btn btn-outline-primary btn-sm">
+                        Ver no GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="mb-5">
+            <h2 class="mb-3">Habilidades e Conhecimentos</h2>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <h3 class="h6 text-body-secondary text-uppercase">Infraestrutura e Redes</h3>
+                    <ul>
+                        <li>Administração de Redes e Infraestrutura</li>
+                        <li>Gestão de Ativos de TI</li>
+                        <li>Servidores</li>
+                        <li>Microsoft Windows</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="h6 text-body-secondary text-uppercase">Segurança da Informação</h3>
+                    <ul>
+                        <li>Firewalls</li>
+                        <li>Gerenciamento de Usuários e Permissões</li>
+                        <li>Boas práticas de segurança de sistemas</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="h6 text-body-secondary text-uppercase">Desenvolvimento de Software</h3>
+                    <ul>
+                        <li>Java e Orientação a Objetos</li>
+                        <li>C básico</li>
+                        <li>Banco de Dados (SQL / SQLite)</li>
+                        <li>Maven, Git e GitHub</li>
+                        <li>Desenvolvimento Web (HTML, CSS, JavaScript)</li>
+                        <li>Desenvolvimento Mobile (Android com Kotlin)</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <h3 class="h6 text-body-secondary text-uppercase">Suporte e Sistemas</h3>
+                    <ul>
+                        <li>Suporte Técnico ao Usuário</li>
+                        <li>Administração de Sistemas (Wareline)</li>
+                        <li>Criação e Gestão de Contas de Usuário e Permissões</li>
+                        <li>Suporte a Sistemas de Faturamento Hospitalar</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="mb-5">
+            <h2 class="mb-3">Contato</h2>
+            <p>
+                Email: kaique.alsouza@gmail.com / kaiquesouza@outlook.com <br>
+                Telefone: (64) 9 9667-8412 <br>
+                Github: <a href="https://github.com/kaiquexsouza" target="_blank">kaiquexsouza</a><br>
+                Linkedin: <a href="https://www.linkedin.com/in/kaiquexsouza" target="_blank">kaiquexsouza</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="text-center text-body-secondary py-4 border-top">
+        <small>&copy; 2026 Kaique Alves de Souza</small>
+    </footer>
+
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const htmlEl = document.documentElement;
+
+        const temaSalvo = localStorage.getItem('tema');
+        if (temaSalvo) {
+            htmlEl.setAttribute('data-bs-theme', temaSalvo);
+            atualizarTextoBotao(temaSalvo);
+        }
+
+        toggleBtn.addEventListener('click', function () {
+            const temaAtual = htmlEl.getAttribute('data-bs-theme');
+            const novoTema = temaAtual === 'dark' ? 'light' : 'dark';
+
+            htmlEl.setAttribute('data-bs-theme', novoTema);
+            localStorage.setItem('tema', novoTema);
+            atualizarTextoBotao(novoTema);
+        });
+
+        function atualizarTextoBotao(tema) {
+            toggleBtn.textContent = tema === 'dark' ? 'Modo claro' : 'Modo escuro';
+        }
+    </script>
+
 </body>
 </html>
