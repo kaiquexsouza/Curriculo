@@ -15,11 +15,9 @@
 </head>
 
 <body>
-    <!-- Cabeçalho com perfil: rola normalmente e some ao scrollar -->
     <header class="bg-body-tertiary border-bottom py-4">
         <div class="container d-flex flex-column flex-sm-row align-items-center gap-3">
-            <img src="https://avatars.githubusercontent.com/u/165086554?v=4"
-                alt="Foto de Kaique Alves de Souza"
+            <img src="https://avatars.githubusercontent.com/u/165086554?v=4" alt="Foto de Kaique Alves de Souza"
                 class="rounded-circle shadow-sm" width="68" height="68">
             <div class="text-center text-sm-start">
                 <h1 class="h4 mb-1">Kaique Alves de Souza</h1>
@@ -30,13 +28,13 @@
         </div>
     </header>
 
-    <!-- Barra de navegação: fica fixada no topo ao rolar a página -->
     <nav class="navbar navbar-expand-md bg-body border-bottom sticky-top shadow-sm py-2">
         <div class="container">
             <a class="navbar-brand d-md-none fw-semibold fs-6" href="#">Kaique Souza</a>
 
             <div class="d-flex align-items-center gap-2 order-md-last ms-auto ms-md-0">
-                <button id="theme-toggle" type="button" class="btn btn-outline-secondary btn-sm" aria-label="Alternar tema">
+                <button id="theme-toggle" type="button" class="btn btn-outline-secondary btn-sm"
+                    aria-label="Alternar tema">
                     Modo escuro
                 </button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -84,7 +82,7 @@
             <div class="card mb-3">
                 <div class="card-body">
                     <div class="d-flex flex-column flex-sm-row justify-content-between mb-1">
-                        <h3 class="h5 card-title mb-1">Coordenador de Unidade</h3>
+                        <h2 class="h5 card-title mb-1">Coordenador de Unidade</h2>
                         <small class="text-body-secondary">Agosto de 2026 &ndash; Atual</small>
                     </div>
                     <h4 class="h6 card-subtitle mb-3 text-body-secondary">DS Outsourcing Development & Support &middot;
@@ -107,7 +105,7 @@
             <div class="card">
                 <div class="card-body">
                     <div class="d-flex flex-column flex-sm-row justify-content-between mb-1">
-                        <h3 class="h5 card-title mb-1">Técnico de Suporte ao Usuário de TIC I</h3>
+                        <h2 class="h5 card-title mb-1">Técnico de Suporte ao Usuário de TIC I</h2>
                         <small class="text-body-secondary">Fevereiro de 2026 &ndash; Agosto de 2026</small>
                     </div>
                     <h4 class="h6 card-subtitle mb-3 text-body-secondary">DS Outsourcing Development & Support &middot;
@@ -254,11 +252,9 @@
         <small>&copy; 2026 Kaique Alves de Souza</small>
     </footer>
 
-    <!-- Bootstrap Bundle com Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
-        // Alternador de tema (Claro / Escuro)
         const toggleBtn = document.getElementById('theme-toggle');
         const htmlEl = document.documentElement;
 
@@ -281,7 +277,6 @@
             toggleBtn.textContent = tema === 'dark' ? 'Modo claro' : 'Modo escuro';
         }
 
-        // Fecha o menu mobile automaticamente ao clicar em um link
         const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
         const navbarCollapse = document.getElementById('navbarContent');
         if (navbarCollapse) {
